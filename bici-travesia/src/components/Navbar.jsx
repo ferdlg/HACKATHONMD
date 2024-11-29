@@ -16,6 +16,7 @@ import PedalBikeIcon from "@mui/icons-material/PedalBike";
 import HomeIcon from "@mui/icons-material/Home";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
+
 const Navbar = () => {
   const [value, setValue] = useState("recents");
   const isMobile = useMediaQuery("(max-width: 768px)");
@@ -59,7 +60,7 @@ const Navbar = () => {
   const renderMobileMenu = (
     <>
       <BottomNavigation
-        sx={{ width: 500, background: "#4AD66D" }}
+        sx={{ width: 500, background: "#03045E" }}
         value={value}
         onChange={handleChange}
       >
@@ -73,11 +74,11 @@ const Navbar = () => {
             to={item.link}
             sx={{
               "& .MuiBottomNavigationAction-label": {
-                color: value === item.value ? "#FD3C3D" : "#b0abab", // Color activo / inactivo
+                color: value === item.value ? "#4AD66D" : "#b0abab", // Color activo / inactivo
                 fontSize: "8px",
               },
               "& .MuiSvgIcon-root": {
-                fill: value === item.value ? "#FD3C3D" : "#b0abab", // Color del icono activo / inactivo
+                fill: value === item.value ? "#4AD66D" : "#b0abab", // Color del icono activo / inactivo
                 width: "20px",
               },
             }}
@@ -98,7 +99,7 @@ const Navbar = () => {
       >
         <Link to="/">
           <div className="flex justify-center pt-8 pl-5 px-3 mb-32">
-            <img className="w-20" src="..." alt="logo bici travesia" />
+            <img className="w-20" src="/" alt="logo bici travesia" />
           </div>
         </Link>
 
