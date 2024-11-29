@@ -1,4 +1,3 @@
-import * as React from "react";
 import { CardBar } from "../components/CardBar";
 import SelectBar from "../components/SelectBar";
 
@@ -16,29 +15,22 @@ export const RentBike = () => {
   };
 
   return (
-    <div>
+    <div className="overflow-auto">
       <h3 className="text-white text-2xl my-5 uppercase">
         ¡Explora a tu ritmo!
       </h3>
 
-      <p className="text-white text-s mb-5">
+      <p className="text-white text-s mb-5 text-left">
         Con nuestra app, encontrar la ruta ideal es tan fácil como dar un par de
         toques en tu pantalla
       </p>
 
       <div className="ml-5">
-        <ul class="list-disc text-left text-white mb-5">
+        <ul class="list-disc text-left text-sm text-white mb-5 text-[#4AD66D]">
+          <li>Selecciona tu país. 🌍</li>
+          <li>Elige tu ciudad. 🏙️</li>
           <li>
-            Now this is a story all about how, my life got flipped-turned upside
-            down
-          </li>
-          <li>
-            Now this is a story all about how, my life got flipped-turned upside
-            down
-          </li>
-          <li>
-            Now this is a story all about how, my life got flipped-turned upside
-            down
+          Encuentra los lugares turísticos más cercanos y planifica tu recorrido.
           </li>
         </ul>
       </div>
