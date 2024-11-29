@@ -1,13 +1,13 @@
 import React from 'react'
 import RutasLanding from '../components/RutasLanding'
-// import Banner from '../components/banner'
+import Banner from '../components/Banner'
 import AboutUs from '../components/AboutUs'
 import TestimonyCard from '../components/TestimonyCard'
 
 export const Home = () => {
   return(
     <div  className="relative w-full h-64">
-      {/* <Banner /> */}
+      <Banner />
       <AboutUs />
       <TestimonyCard/>
       <RutasLanding/>
