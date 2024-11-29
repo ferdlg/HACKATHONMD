@@ -1,14 +1,61 @@
 import * as React from "react";
+import { CardBar } from "../components/CardBar";
+import SelectBar from "../components/SelectBar";
 
 export const RentBike = () => {
+  // Opciones para el select
+  const options = [
+    { value: "option1", label: "Opción 1" },
+    { value: "option2", label: "Opción 2" },
+    { value: "option3", label: "Opción 3" },
+  ];
+
+  // Manejar el valor seleccionado
+  const handleSelectionChange = (value) => {
+    console.log("Opción seleccionada:", value);
+  };
+
   return (
     <div>
-      <h3 className="text-white">Aquí puedes encontrar las tiendas que tienen bicicletas disponibles para ti</h3>
-      <iframe className="w-full"
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63460.255352331544!2d-75.62070419097468!3d6.228624729184868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stiendas%20de%20ciclas!5e0!3m2!1ses!2sco!4v1732826335418!5m2!1ses!2sco"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <h3 className="text-white text-2xl my-5 uppercase">
+        ¡Explora a tu ritmo!
+      </h3>
+
+      <p className="text-white text-s mb-5">
+        Con nuestra app, encontrar la ruta ideal es tan fácil como dar un par de
+        toques en tu pantalla
+      </p>
+
+      <div className="ml-5">
+        <ul class="list-disc text-left text-white mb-5">
+          <li>
+            Now this is a story all about how, my life got flipped-turned upside
+            down
+          </li>
+          <li>
+            Now this is a story all about how, my life got flipped-turned upside
+            down
+          </li>
+          <li>
+            Now this is a story all about how, my life got flipped-turned upside
+            down
+          </li>
+        </ul>
+      </div>
+
+      <SelectBar
+        label="Selecciona el Pais"
+        options={options}
+        onChange={handleSelectionChange}
+      />
+
+      <CardBar
+        title="Nombre Bici"
+        description="Descripcion API"
+        ubicacionAddres="Direccion xxxx"
+        imageUrl="https://poseidonbogota.com/wp-content/uploads/2023/03/Bicicleta-Fixie-de-pinon-libre-Ontrail-Color-Lite-variacion-1-1.jpg"
+        buttonText="Alquilar"
+      />
     </div>
   );
 };
