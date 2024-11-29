@@ -59,7 +59,7 @@ const Navbar = () => {
   const renderMobileMenu = (
     <>
       <BottomNavigation
-        sx={{ width: 500, background: "#191A1F" }}
+        sx={{ width: 500, background: "#4AD66D" }}
         value={value}
         onChange={handleChange}
       >

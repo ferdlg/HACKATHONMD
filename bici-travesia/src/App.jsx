@@ -1,23 +1,24 @@
-import './App.css'
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { RentBike, Home, RouteBike } from './pages/index';
-import  Navbar  from './components/Navbar';
+import { RentBike, Home, RouteBike } from "./pages/index";
+import Navbar from "./components/Navbar";
+import MovingImage from "./components/MovingImage";
 function App() {
-
   return (
     <>
-       <BrowserRouter>
-        
+      <BrowserRouter>
+        <div className="mt-5 ml-24">
+          <MovingImage />
+        </div>
         <Navbar />
-        
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/renta" element={<RentBike />} />
-        <Route path="/ruta" element={<RouteBike/>} />
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/renta" element={<RentBike />} />
+          <Route path="/ruta" element={<RouteBike />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
