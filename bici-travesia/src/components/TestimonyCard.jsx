@@ -40,7 +40,9 @@ export default function TestimonyCard() {
 
   return (
     <div className='gap-4'>
-
+      <h1 className="mt-4 mb-4 text-xl font-extrabold leading-none tracking-tight text-green-400 md:text-5xl lg:text-6xl dark:text-white">
+        Testimonios
+      </h1>
     {
 
         testimonials.map((testimony, index)=>
