@@ -60,7 +60,7 @@ const Navbar = () => {
   const renderMobileMenu = (
     <>
       <BottomNavigation
-        sx={{ width: 500, background: "#03045E" }}
+        sx={{ width: 500, background: "#03045E"}}
         value={value}
         onChange={handleChange}
       >
@@ -128,7 +128,6 @@ const Navbar = () => {
   return (
     <AppBar
     position="fixed"
-    className="bg-black pb-2"
     sx={{
       top: "auto",
       bottom: 0,

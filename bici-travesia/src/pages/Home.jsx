@@ -7,10 +7,8 @@ export const Home = () => {
     <>
     <div>
       <h1>home</h1>
+      <TestimonyCard/>
       <RutasLanding/>
-    </div>
-    <div>
-      <TestimonyCard></TestimonyCard>
     </div>
     </>
   )

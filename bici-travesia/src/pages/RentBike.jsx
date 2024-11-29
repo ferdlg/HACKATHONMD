@@ -50,7 +50,7 @@ export const RentBike = () => {
       />
 
       <CardBar
-        title="Nombre Bici"
+        title="Bicicleta XR333"
         description="Descripcion API"
         ubicacionAddres="Direccion xxxx"
         imageUrl="https://poseidonbogota.com/wp-content/uploads/2023/03/Bicicleta-Fixie-de-pinon-libre-Ontrail-Color-Lite-variacion-1-1.jpg"

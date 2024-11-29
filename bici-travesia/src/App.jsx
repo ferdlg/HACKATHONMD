@@ -12,11 +12,13 @@ function App() {
           <MovingImage />
         </div>
         <Navbar />
+        <div className="h-[80vh] overflow-auto" >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/renta" element={<RentBike />} />
           <Route path="/ruta" element={<RouteBike />} />
         </Routes>
+        </div>
       </BrowserRouter>
     </>
   );
