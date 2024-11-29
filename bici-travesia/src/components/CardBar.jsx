@@ -35,7 +35,7 @@ export const CardBar = ({ title, description, imageUrl, buttonText, ubicacionAdd
   return (
     <>
       {/* Tarjeta principal */}
-      <Card className="max-w-sm w-full shadow-lg rounded-lg overflow-hidden transform transition-transform">
+      <Card className="max-w-sm w-full shadow-lg rounded-lg overflow-hidden transform transition-transform my-6">
         <CardActionArea>
           {/* Imagen de la tarjeta */}
           <div className="relative w-full h-48 md:h-60 lg:h-64">

@@ -14,7 +14,7 @@ const SelectBar = ({ label, options, onChange }) => {
   };
 
   return (
-    <Box className="w-full max-w-sm mx-auto">
+    <Box className="w-full max-w-sm mx-auto mb-10">
       <FormControl
         fullWidth
         className="rounded-lg shadow-md  border border-green-400"
