@@ -1,8 +1,8 @@
 import React from 'react'
-import Banner from './components/banner'
-import AboutUs from './components/AboutUs'
-import TestimonyCard from './components/TestimonyCard'
-import RutasLanding from './components/RutasLanding'
+import RutasLanding from '../components/RutasLanding'
+import Banner from '../components/banner'
+import AboutUs from '../components/AboutUs'
+import TestimonyCard from '../components/TestimonyCard'
 
 export const Home = () => {
   return(
