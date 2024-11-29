@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
-export default function TestimonyCard() {
+const TestimonyCard= () => {
   const theme = useTheme();
     const testimonials = [
     {
@@ -89,3 +89,5 @@ export default function TestimonyCard() {
     
   );
 }
+
+export default TestimonyCard
