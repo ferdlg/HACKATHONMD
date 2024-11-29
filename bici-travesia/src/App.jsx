@@ -7,7 +7,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="mt-5 ml-24">
+        <div className="mtnpm run dev
+        -5 ml-24">
           <MovingImage />
         </div>
         <Navbar />
