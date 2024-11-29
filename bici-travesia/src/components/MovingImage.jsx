@@ -1,6 +1,6 @@
 const MovingImage = () => {
   return (
-    <div className="relative w-full h-6">
+    <div className="relative w-full h-6 my-5">
       {/* Imagen inferior fija */}
       <img
         src="./public/Logo Tipografico.svg"

@@ -16,7 +16,7 @@ export const RouteBike = () => {
 
   return (
     <div className="overflow-auto">
-      <h3 className="text-white text-2xl my-5 uppercase">
+      <h3 className="text-xl mt-5 font-extrabold  text-[#4AD66D] leading-none mb-3 uppercase tracking-wide">
         ¡Conoce más, descubre más!
       </h3>
 
