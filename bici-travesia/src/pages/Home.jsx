@@ -1,6 +1,6 @@
 import TestimonyCard from "../components/TestimonyCard";
 import React from "react";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 import AboutUs from "../components/AboutUs";
 import RutasLanding from "../components/RutasLanding";
 import { SectionWomen } from "../components/SectionWomen";
