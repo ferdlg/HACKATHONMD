@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Banner from '../components/banner'
+import AboutUs from '../components/AboutUs'
 export const Home = () => {
   return (
-    <div>
-      <h1>home</h1>
+    <div  className="relative w-full h-64">
+      <Banner />
+      <AboutUs />
     </div>
   )
 }
