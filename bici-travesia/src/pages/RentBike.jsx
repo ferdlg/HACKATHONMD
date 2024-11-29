@@ -16,11 +16,11 @@ export const RentBike = () => {
 
   return (
     <div className="overflow-auto">
-      <h3 className="text-white text-2xl my-5 uppercase">
+      <h3 className="text-xl mt-5 font-extrabold  text-[#4AD66D] leading-none mb-3 uppercase tracking-wide">
         ¡Explora a tu ritmo!
       </h3>
 
-      <p className="text-white text-s mb-5 text-left">
+      <p className="text-white mb-5 text-left">
         Con nuestra app, encontrar la ruta ideal es tan fácil como dar un par de
         toques en tu pantalla
       </p>

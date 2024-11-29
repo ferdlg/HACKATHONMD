@@ -5,10 +5,10 @@ const RutasLanding = () => {
   return (
     <div>
         <Divider className="bg-white"/>
-      <h1 className="mt-4 mb-4 text-xl font-extrabold leading-none tracking-tight text-green-400 md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className="mt-4 mb-4 text-xl font-extrabold leading-none uppercase tracking-wide text-green-400 md:text-5xl lg:text-6xl dark:text-white">
         Consulta tus Rutas
       </h1>
-      <p className="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+      <p className="mb-6 text-left font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
         ¡Planea tu próxima aventura con nosotros! Descubre las mejores rutas
         para explorar en bici o a pie. Solo dinos dónde quieres comenzar y qué
         te gustaría visitar, y te daremos el camino ideal para disfrutar al
